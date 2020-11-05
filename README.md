@@ -13,6 +13,15 @@ In case your printer still doesn't work afterwards you can enable cups debug log
 * View the logs with `journalctl -u cups -e -f`
 * After finding the problem change back the `LogLevel` to warn
 
+Referenced files are also available from archive.org and can be fetched with wget using the URLs below.
+```
+http://web.archive.org/web/20200327053727if_/https://downloads.kyoceradocumentsolutions.com.au/drivers/Drivers/Linux%20Driver%20Package.zip
+SHA256: b2869b9d00bd420291b2592da32e5787f8395e0f5f9961317b9518781d9b098b
+
+http://web.archive.org/web/20201105163836if_/https://files.pythonhosted.org/packages/a1/2f/7bcba9b75143455aaddf90c46a0c53dca89e57a4e5c5760af8422aa6747c/reportlab-2.7.tar.gz
+SHA256: 82b56935e4a75641b40eb22050f0b6e46a0f0a9ebfacdf3b24a1e9c0eef2af6d
+```
+
 Most likely it also works for many other printers of Kyocera. For the following printer models ppd files were included when I installed the driver on my system:
 
 ```
