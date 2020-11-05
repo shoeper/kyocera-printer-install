@@ -6,6 +6,13 @@ The script is written for Fedora. I've used it with Fedora 32. It most likely al
 
 To install the driver, just fetch the script and run it.
 
+In case your printer still doesn't work afterwards you can enable cups debug logging as follows.
+
+* Edit /etc/cups/cupsd.conf to change `LogLevel` to `debug`
+* Reload cupsd (`systemctl restart cups.service`
+* View the logs with `journalctl -u cups -e -f`
+* After finding the problem change back the `LogLevel` to warn
+
 Most likely it also works for many other printers of Kyocera. For the following printer models ppd files were included when I installed the driver on my system:
 
 ```
