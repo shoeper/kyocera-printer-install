@@ -1,3 +1,11 @@
+# Kyodialog 8+
+
+Instead of using the script I recommend looking at https://github.com/shoeper/kyocera-printer-install/issues/1 for simple download and install instructions.
+
+Newer versions of kyodialog support Python 3 and work out of the box.
+
+# Kyodialog 7
+
 On recent OS Python 2 support is usually dropped. The Kyocera driver for printers like the FS-1370DN are using a Filter using python2 which doesn't work out of the box. This simple script installs the driver and modifies the installation to make it work.
 
 The script is written for Fedora. I've used it with Fedora 32. It most likely also works with other versions of Fedora. `python2` is supposed to be installed on your system. With small adjustments you can also use it for other distributions.
